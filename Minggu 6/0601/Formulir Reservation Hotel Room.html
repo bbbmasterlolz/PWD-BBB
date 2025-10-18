@@ -3,11 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
   <head>
     <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="style/mystylesheet.css"/>
     <title>Atma Hotel</title>
   </head>
   <body>
+    <img src="img/ss2.jpg" alt="Background Image" class="fiximg" />
     <h1>Reservation Hotel Room</h1>
-    <form action="" method="post" enctype="multipart/form-data">
+    <form action="" method="post" enctype="multipart/form-data" class="container">
       <fieldset>
         <legend>Personal Data</legend>
         <ol>
@@ -24,8 +26,10 @@
           <input type="text" id="telp" name="telp" size="30" />
         </ol>
       </fieldset>
-      
-      Reservation Room form
+      <br />
+
+      <fieldset>
+      <legend>Reservation Room form</legend>
       <ol>
         <li><label for="rsvname">Reservation Name</label></li>
         <input type="text" id="rsvname" name="rsvname" size="30" />
@@ -50,9 +54,19 @@
         </select>
 
         <li><label for="breakfest">Breakfest</label></li>
-        <label for="wb"><input type="radio" id="wb" name="breakfest" value="Whit Breakfest" /> Whit Breakfest</label>
-        <label for="wtb"><input type="radio" id="wtb" name="breakfest" value="Whitout Breakfest" /> Whitout Breakfest</label>
+        <table cellpadding="4">
+          <tr>
+            <td><label for="wb">Whit Breakfest</label></td>
+            <td><input type="radio" id="wb" name="breakfest" value="Whit Breakfest" /></td>
+          </tr>
+          <tr>
+            <td><label for="wtb">Whitout Breakfest</label></td>
+            <td> <input type="radio" id="wtb" name="breakfest" value="Whitout Breakfest" /></td>
+          </tr>
+        </table>        
       </ol>
+      </fieldset>
+      <br />
       <fieldset>
         <legend><strong>Payment</strong></legend>
         <ol>
@@ -71,7 +85,7 @@
           </select>
         </ol>
       </fieldset>
-      <input type="submit" id="simpan" name="simpan" value="Simpan" />
+      <input type="submit" id="simpan" name="simpan" value="Simpan" class="button" />
     </form>
   </body>
 </html>

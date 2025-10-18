@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+  <head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/>
+    <title>Atma Hotel</title>
+  </head>
+  <body>
+    <h1>Reservation Hotel Room</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Personal Data</legend>
+        <ol>
+          <li><label for="name">Name</label></li>
+          <input type="text" id="name" name="name" size="30" />
+
+          <li><label for="gender">Gender</label></li>
+          <input type="text" id="gender" name="gender" size="30" />
+
+          <li><label for="email">Email</label></li>
+          <input type="text" id="email" name="email" size="30" />
+
+          <li><label for="telp">Telp</label></li>
+          <input type="text" id="telp" name="telp" size="30" />
+        </ol>
+      </fieldset>
+      
+      Reservation Room form
+      <ol>
+        <li><label for="rsvname">Reservation Name</label></li>
+        <input type="text" id="rsvname" name="rsvname" size="30" />
+
+        <li><label for="bdate">Booking date</label></li>
+        <input type="text" id="bdate" name="bdate" size="30" />
+
+        <li><label for="roomtype">Room Type</label></li>
+        <select id="roomtype" name="roomtype">
+          <option>Deluxe</option>
+          <option>Standard</option>
+          <option>Superior</option>
+          <option>Suite</option>
+        </select>
+
+        <li><label for="bedtype">Bed Type</label></li>
+        <select id="bedtype" name="bedtype">
+          <option>Single Bed</option>
+          <option>Double Bed</option>
+          <option>Queen Bed</option>
+          <option>King Bed</option>
+        </select>
+
+        <li><label for="breakfest">Breakfest</label></li>
+        <label for="wb"><input type="radio" id="wb" name="breakfest" value="Whit Breakfest" /> Whit Breakfest</label>
+        <label for="wtb"><input type="radio" id="wtb" name="breakfest" value="Whitout Breakfest" /> Whitout Breakfest</label>
+      </ol>
+      <fieldset>
+        <legend><strong>Payment</strong></legend>
+        <ol>
+          <li><label for="chekindate">Chek in date</label></li>
+          <input type="text" id="chekindate" name="chekindate" size="30" />
+
+          <li><label for="chekoutdate">Gender</label></li>
+          <input type="text" id="chekoutdate" name="chekoutdate" size="30" />
+
+          <li><label for="payment">Payment</label></li>
+            <select id="payment" name="payment">
+            <option>cash</option>
+            <option>card</option>
+            <option>soul</option>
+            <option>instalment</option>
+          </select>
+        </ol>
+      </fieldset>
+      <input type="submit" id="simpan" name="simpan" value="Simpan" />
+    </form>
+  </body>
+</html>

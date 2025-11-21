@@ -17,5 +17,5 @@
 [mandiri](https://bbbmasterlolz.github.io/PWD-BBB/Minggu%209/0905/index.xhtml)
 
 ## Minggu 10
-[1001](https://bbbmasterlolz.github.io/PWD-BBB/Minggu%210/1001/index.xhtml)
-[1002](https://bbbmasterlolz.github.io/PWD-BBB/Minggu%210/1002/index.xhtml)
+[1001](https://bbbmasterlolz.github.io/PWD-BBB/Minggu%2010/1001/index.xhtml)
+[1002](https://bbbmasterlolz.github.io/PWD-BBB/Minggu%2010/1002/index.xhtml)
